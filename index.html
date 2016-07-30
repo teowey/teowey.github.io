@@ -1,23 +1,63 @@
----
-layout: default
----
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="home">
+<head>
 
-  <h1 class="page-heading">Posts</h1>
+<title>Homepage</title>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<meta name="keyword" content="Store, Sell, Buy, Computer" />
+<meta name="description" content="Online Store for Computers"/>
+<meta author="author" name="Teodoro Orlow Wey" />
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<link rel="stylesheet" type="text/css" href="style.css" />
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</head>
 
-</div>
+<body>
+
+<h1 id="name" class="title">Homepage</h1>
+
+<h2 id="description" class="title">Project My Page</h2>
+<img id="portrait" src="/Users/teowey/KTH/Programming/html_intro/website/images/teo_2016.jpg" height="400px" width="600px"/>
+<p class="Teo">Hi! My name is Teo!</p><br />
+
+<table border="1px" cellpadding="25px" cellspacing="5px"> <br />
+  <tr>
+    <td><b>Cars</b></td>
+    <td><b>Fruits</b></td>
+  </tr>
+  
+  <tr>
+    <td>Ferrari</td>
+    <td rowspan="2"> It works!</td>
+  </tr>
+
+  <tr>
+    <td>Row 3 Cell 1</td>
+  </tr>
+  <br />
+
+</table><br />
+
+<h2 id="contents-header">Contents</h2> 
+
+<a href="index.html">Homepage</a><br />
+<a href="about.html">About</a><br /> <! target makes the link About located in Homepage open in a new tab>
+<a href="contact.html">Contact</a><br />
+<a href="admin/admin.html">Admin</a><br />
+
+<a href="test.txt">Text file</a><br />
+
+<a href="contact.html#adoption">Read the ADOPTION</a><br />
+
+
+<hr>
+<address></address>
+
+</body>
+
+</html>
