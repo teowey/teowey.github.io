@@ -88,7 +88,7 @@ var bio = {
         "location": "Stockholm, Sweden"
     },
     "skills": [
-        "Computer Engineering", "Web Development", "Java Programming", "Distributed Systems "
+        "Computer Engineering", "Web Development", "Java Programming"
     ],       
     "pic": "images/profilepic.jpeg",
     "display": "displayBio()"
