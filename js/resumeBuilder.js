@@ -51,11 +51,18 @@ $("#header").append(formattedName);
 var work = {
     "jobs": [
         {
-            "employer": "Freescale",
-            "title": "SoC Engineer",
+            "employer": "Freescale Semiconductors Inc.",
+            "title": "Hardware Engineer",
             "location": "Campinas, Brazil",
-            "dates": "January 2013 to August 2014",
-            "description": "Working on Synthesis and Logic Equivalence Check processes"
+            "dates": "January 2013 to August 2014"
+            //"description": "System-on-a-chip integration"
+        },
+        {
+            "employer": "CleverLearning AB",
+            "title": "Web Developer Intern",
+            "location": "Stockholm, Sweden",
+            "dates": "February 2016 to August 2016"
+            //"description": "Worked with Responsive Web Design for online courses"
         }
     ],
     "display": "displayWork()"
@@ -172,8 +179,8 @@ function displayWork() {
         var formattedLocation = HTMLworkLocation.replace("%data%", work.jobs[job].location);
         $(".work-entry:last").append(formattedLocation);
 
-        var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
-        $(".work-entry:last").append(formattedDescription);
+        // var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
+        // $(".work-entry:last").append(formattedDescription);
 
     }
 }

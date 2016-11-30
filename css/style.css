@@ -132,7 +132,9 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+
+  background-color: #262626;
+  
 }
 
 .flex-box {
@@ -146,7 +148,7 @@ a {
 }
 
 .center-content {
-  padding: 2.5% 5%;
+  padding: 2% 5%;
 }
 
 ul {
@@ -215,4 +217,11 @@ span {
   .biopic {
     display: block;
   }
+}
+
+#name {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
 }
