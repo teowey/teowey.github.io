@@ -105,24 +105,25 @@ var bio = {
 
 var education = {
     "schools": [
-        {
-            "name": "UNICAMP",
-            "location": "Campinas, Brazil",
-            "degree": "B.S.",
-            "department": "FEEC - School of Electrical and Computer Engineering",
-            "majors": "Computer Engineering",
-            "dates": "2012 ",
-            "url": "http://www.unicamp.br"
-        },
-        {
-            "name": "KTH",
+    {
+            "name": "KTH Royal Institute of Technology",
             "location": "Stockholm, Sweden",
-            "degree": "M.S.",
+            "degree": "Graduate Studies",
             "department": "ICT - School of Information and Communication Technology",
             "majors": "Communication Systems",
             "dates": "2016",
             "url": "http://www.kth.se"
+        },
+        {
+            "name": "UNICAMP",
+            "location": "Campinas, Brazil",
+            "degree": "Undergraduate Studies",
+            "department": "FEEC - School of Electrical and Computer Engineering",
+            "majors": "Computer Engineering",
+            "dates": "2012 ",
+            "url": "http://www.unicamp.br"
         }
+        
     ],
     "display": "displayEducation()"
 
